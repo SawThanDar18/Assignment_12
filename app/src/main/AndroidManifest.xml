@@ -13,18 +13,18 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".activities.DetailActivity"
+            android:name="com.padc.padcfirebase.activities.DetailActivity"
             android:label="@string/title_activity_detail"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan"
-            android:parentActivityName=".activities.MainActivity"
+            android:parentActivityName="com.padc.padcfirebase.activities.MainActivity"
             android:theme="@style/AppTheme.Transparent">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.padc.padcfirebase.activities.MainActivity" />
         </activity>
         <activity
-            android:name=".activities.MainActivity"
+            android:name="com.padc.padcfirebase.activities.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme">
             <intent-filter>
@@ -35,7 +35,7 @@
         </activity>
 
         <service
-            android:name=".fcm.AppFCMService"
+            android:name="com.padc.padcfirebase.fcm.AppFCMService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />

@@ -1,6 +1,5 @@
 package com.padc.padcfirebase.adapters
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.padc.padcfirebase.R

@@ -52,22 +52,6 @@ object FirebaseModelImpl: FirebaseModel {
 
                 Log.d(TAG, "Value is: $articles")
 
-                //firestore
-                for (article in articles){
-                    val id = article.id
-
-                    firestore.collection("articles")
-                        //.add(articles.associate {  it.id to it})
-                        .document(id)
-                        .set(article)
-                        .addOnSuccessListener {
-                            Log.d(TAG, "DocumentSnapshot added with ID: ${it}")
-                        }
-                        .addOnFailureListener {
-                            Log.d(TAG, "Error adding document", it)
-                        }
-                }
-
                 liveData.value = articles
             }
 
@@ -211,6 +195,7 @@ object FirebaseModelImpl: FirebaseModel {
             .addOnFailureListener {
                 Log.e(TAG, "Add Comment error ${it.localizedMessage}")
             }
-
     }
+
+
 }
