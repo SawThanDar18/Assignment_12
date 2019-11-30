@@ -12,41 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0b5b7be-dbf4-46a8-a49d-d51dae8464ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment_12-PADCFirebase.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PADCFirebase.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/padc/padcfirebase/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/padc/padcfirebase/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/activities/DetailActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/activities/DetailActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/activities/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/activities/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/adapters/ArticlesAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/adapters/ArticlesAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/adapters/BaseAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/adapters/BaseAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/adapters/CommentsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/adapters/CommentsAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/components/AspectRatioImageView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/components/AspectRatioImageView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/data/models/FirebaseModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/data/models/FirebaseModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/data/models/FirebaseModelImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/data/models/FirebaseModelImpl.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/data/models/FirestoreModelImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/data/models/FirestoreModelImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/data/models/UserAuthenticationModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/data/models/UserAuthenticationModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/data/models/UserAuthenticationModelImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/data/models/UserAuthenticationModelImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/data/vos/vos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/data/vos/vos.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/delegates/ArticleItemDelegate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/delegates/ArticleItemDelegate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/fcm/AppFCMService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/fcm/AppFCMService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/fcm/NotificationUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/fcm/NotificationUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/presenters/ArticleDetailPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/presenters/ArticleDetailPresenter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/presenters/ArticlesPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/presenters/ArticlesPresenter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/presenters/BaseGoogleSignInPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/presenters/BaseGoogleSignInPresenter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/presenters/BasePresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/presenters/BasePresenter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/views/ArticleDetailView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/views/ArticleDetailView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/views/ArticlesView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/views/ArticlesView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/views/BaseGoogleSignInView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/views/BaseGoogleSignInView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/views/BaseView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/views/BaseView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/utils/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/utils/Constants.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/utils/ScreenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/utils/ScreenUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/utils/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/utils/Utils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/viewholders/ArticleViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/viewholders/ArticleViewHolder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/viewholders/BaseViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/viewholders/BaseViewHolder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/viewholders/CommentViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/viewholders/CommentViewHolder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/padc/padcfirebase/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/padc/padcfirebase/ExampleUnitTest.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +29,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="84a60cb" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -106,10 +77,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/data/models/FirestoreModelImpl.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="-357">
+              <caret line="139" column="42" lean-forward="true" selection-start-line="139" selection-start-column="42" selection-end-line="139" selection-end-column="42" />
               <folding>
-                <element signature="e#43#853#0" expanded="true" />
+                <element signature="e#43#646#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,8 +89,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/data/models/FirebaseModelImpl.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="-493">
+              <caret line="123" column="77" lean-forward="true" selection-start-line="123" selection-start-column="77" selection-end-line="123" selection-end-column="77" />
+              <folding>
+                <element signature="e#43#905#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,11 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/presenters/ArticlesPresenter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="119">
               <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-              <folding>
-                <element signature="e#46#601#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -217,8 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -242,6 +211,8 @@
         </subPane>
       </pane>
       <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Course" />
     </panes>
   </component>
@@ -390,7 +361,7 @@
       <window_info anchor="bottom" id="Educational.CheckDetails" order="0" />
       <window_info anchor="bottom" id="Run" order="1" weight="0.32569557" />
       <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info anchor="bottom" id="Android Profiler" order="3" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5015129" side_tool="true" weight="0.3289689" />
@@ -742,9 +713,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PADCFirebase.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PADCFirebase.iml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -760,7 +729,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
@@ -770,6 +738,7 @@
           </folding>
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/utils/Constants.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -788,29 +757,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/data/models/FirebaseModelImpl.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/presenters/ArticlesPresenter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="119">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/mvp/presenters/ArticlesPresenter.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/data/models/FirebaseModelImpl.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        <state relative-caret-position="-493">
+          <caret line="123" column="77" lean-forward="true" selection-start-line="123" selection-start-column="77" selection-end-line="123" selection-end-column="77" />
           <folding>
-            <element signature="e#46#601#0" expanded="true" />
+            <element signature="e#43#905#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padc/padcfirebase/data/models/FirestoreModelImpl.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="-357">
+          <caret line="139" column="42" lean-forward="true" selection-start-line="139" selection-start-column="42" selection-end-line="139" selection-end-column="42" />
           <folding>
-            <element signature="e#43#853#0" expanded="true" />
+            <element signature="e#43#646#0" expanded="true" />
           </folding>
         </state>
       </provider>

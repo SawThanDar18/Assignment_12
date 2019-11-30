@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Assignment_12-PADCFirebase.iml" filepath="$PROJECT_DIR$/Assignment_12-PADCFirebase.iml" />
       <module fileurl="file://$PROJECT_DIR$/PADCFirebase.iml" filepath="$PROJECT_DIR$/PADCFirebase.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

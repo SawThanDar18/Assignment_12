@@ -31,7 +31,7 @@ object FirestoreModelImpl: FirebaseModel {
             override fun onEvent(documentSnapshots: QuerySnapshot?, e: FirebaseFirestoreException?) {
 
                 if (e != null) {
-                    Log.w(TAG, "onEvent:error", e)
+                    Log.w(TAG, "error", e)
                     return
                 }
 
@@ -43,7 +43,7 @@ object FirestoreModelImpl: FirebaseModel {
                     }
                 }
 
-                Log.d(TAG, "Value is: $articles")
+                Log.d(TAG, "Value: $articles")
 
                 liveData.value = articles
             }
@@ -52,7 +52,7 @@ object FirestoreModelImpl: FirebaseModel {
         // Start real-time data observing
         val listenerRegister = articlesRef.addSnapshotListener(realTimeListener)
 
-        // Stop real-time data observing when Presenter's onCleared() was called
+        // Stop real-time data observing
         cleared.observeForever(object : Observer<Unit> {
             override fun onChanged(unit: Unit?) {
                 unit?.let {
@@ -70,10 +70,10 @@ object FirestoreModelImpl: FirebaseModel {
 
         val articleRef = databaseRef.collection(REF_PATH_ARTICLES).document(id)
 
-        // Start real-time data
+        // Start real-time data observing
         val listenerRegister = articleRef.addSnapshotListener { snapshot, e ->
             if (e != null) {
-                Log.w(TAG, "fail", e)
+                Log.d(TAG, "fail", e)
                 return@addSnapshotListener
             }
 
@@ -89,7 +89,7 @@ object FirestoreModelImpl: FirebaseModel {
             }
         }
 
-        // Stop real-time data
+        // Stop real-time data observing
         cleared.observeForever(object : Observer<Unit> {
             override fun onChanged(unit: Unit?) {
                 unit?.let {
@@ -103,18 +103,16 @@ object FirestoreModelImpl: FirebaseModel {
     }
 
     override fun updateClapCount(count: Int, article: ArticleVO) {
-        Log.d(TAG," updateClapCount Count $count, aritcleVo: $article")
         val articleRef = databaseRef.collection(REF_PATH_ARTICLES).document(article.id)
         val data = hashMapOf(REF_KEY_CLAP_COUNT to count + article.claps)
         articleRef.set(data, SetOptions.merge())
     }
 
     override fun addComment(comment: String, pickedImage: Uri?, article: ArticleVO) {
-        Log.d(TAG,"addCOmment $comment, article: $article")
         if (pickedImage != null) {
             uploadImageAndAddComment(comment, pickedImage, article)
-
-        } else {
+        }
+        else {
             val currentUser = UserAuthenticationModelImpl.currentUser!!
             val newComment = CommentVO(
                 System.currentTimeMillis().toString(), "", comment, UserVO(
@@ -131,10 +129,7 @@ object FirestoreModelImpl: FirebaseModel {
         val storageRef = FirebaseStorage.getInstance().reference
         val imagesFolderRef = storageRef.child(STORAGE_FOLDER_PATH)
 
-
-        val imageRef = imagesFolderRef.child(
-            pickedImage.lastPathSegment ?: System.currentTimeMillis().toString()
-        )
+        val imageRef = imagesFolderRef.child(pickedImage.lastPathSegment ?: System.currentTimeMillis().toString())
 
         val uploadTask = imageRef.putFile(pickedImage)
 
