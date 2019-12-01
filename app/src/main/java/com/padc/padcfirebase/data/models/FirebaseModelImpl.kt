@@ -51,6 +51,24 @@ object FirebaseModelImpl: FirebaseModel {
                 }
 
                 Log.d(TAG, "Value is: $articles")
+                
+                for (article in articles){
+                    val id = article.id
+
+                    // add to firestore
+                    firestore.collection("articles")
+                        .document(id)
+                        .set(article)
+                        .addOnSuccessListener {
+                            Log.d(TAG, "DocumentSnapshot added with ID: ${it}")
+                        }
+                        .addOnFailureListener {
+                            Log.w(TAG, "Error adding document", it)
+                        }
+
+
+
+                }
 
                 liveData.value = articles
             }
